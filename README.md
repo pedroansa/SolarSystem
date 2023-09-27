@@ -1,10 +1,33 @@
-# SolarSystem
+# Solar System Simulation
 
-## Sumary
-In this document we will discuss and present the results of the development of the OpenGL project propose in the course as well as all the difficulties and learning aspects that I’ve had in the execution of the exercise.
+This project was developed as a college assignment to teach us about transformation matrices. The goal was to implement a simulation of the Solar System, including the Sun, Earth, Moon, and all the planets from Mercury to Uranus. Additionally, a dynamic camera was added for a more interactive experience.
 
-## Exercises
-We were asked to develop one OpenGL exercise, following the steps listed in the document TP00-OpenGL.pdf that described two major projects to improve our knowledge of OpenGL and computer graphics. The first exercise was made in class with the help of the professor and consisted in draw a triangle with OpenGL and C++ and rasterize the vertex with color using Vertex and Fragment Shaders.
+## Features
 
-The great challenge was the second exercise that consist in doing the same thing, but instead of a static and colorful triangle, we should draw a mini Solar System with 3 spheres and using Textures for the planets and animations to simulate the movement of the planet.
+- Implemented Sun, Earth, Moon, and all planets from Mercury to Uranus.
+- Added a dynamic camera for a more interactive user experience.
+- Demonstrates the use of transformation matrices for realistic planet movements.
+
+## Usage
+
+To run the simulation, follow these steps:
+
+1. Normally executing the Cmake file should make the dependencies work
+
+## Controls
+
+- W S A D controlls the position of the camera
+- Space bar to go Up 
+- Left crtl to go down
+- Mouse to change the perspective direction
+
+## Notes
+
+- The proportions of the planets are illustrative and may not be to scale.
+- Rotation and translation mechanisms are functioning correctly.
+
+## Future Improvements
+
+- Add a skybox and a controll to the speed of the simulation
+
 
