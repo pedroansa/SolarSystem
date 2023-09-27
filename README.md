@@ -1,4 +1,5 @@
 # Solar System Simulation
+![Solar System](projectExample.JPG)
 
 This project was developed as a college assignment to teach us about transformation matrices. The goal was to implement a simulation of the Solar System, including the Sun, Earth, Moon, and all the planets from Mercury to Uranus. Additionally, a dynamic camera was added for a more interactive experience.
 
