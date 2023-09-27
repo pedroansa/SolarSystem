@@ -32,6 +32,7 @@ Sphere::Sphere(float r, float x, float y, float z) {
     this->x = x;
     this->y = y;
     this->z = z;
+    this->setName("earth");
 
 }
 
